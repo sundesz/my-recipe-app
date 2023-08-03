@@ -2,7 +2,7 @@ import axios from 'axios'
 import { NewRecipe, Recipe } from '../types/recipe'
 
 class RecipeService {
-  private baseUrl = '/api/v1/recipes'
+  private baseUrl = `${process.env.VITE_BACKEND_URL}/api/v1/recipes`
 
   /**
    * Axios error handling
