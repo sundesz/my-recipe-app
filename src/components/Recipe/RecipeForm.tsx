@@ -51,7 +51,7 @@ const RecipeForm: React.FC<RecipeFormProps> = ({ initialRecipe }) => {
 
         setRecipes((prevRecipes) => [...prevRecipes, newEditRecipe])
         toast.success('Recipe update successfully')
-        navigate(0)
+        navigate(`/recipes`)
       } else {
         // Otherwise, create a new recipe
         newEditRecipe = await recipeService.createRecipe(recipeData)
