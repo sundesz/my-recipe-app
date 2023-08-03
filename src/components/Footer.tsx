@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <footer className='bg-gray-200 py-4 text-center'>
+    <footer className='bg-gray-200 py-6 text-center'>
       <p>
         &copy; {new Date().getFullYear()} My Recipe App. All rights reserved.
       </p>
