@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import Home from './components/Home'
 import Layout from './components/Layout'
 import Page404 from './components/Page404'
-import RecipeForm from './components/RecipeForm'
-import RecipeItem from './components/RecipeItem'
-import RecipeList from './components/RecipeList'
-import 'react-toastify/dist/ReactToastify.css'
+import RecipeList from './components/Recipe/RecipeList'
+import RecipeItem from './components/Recipe/RecipeItem'
+import RecipeForm from './components/Recipe/RecipeForm'
 
 const App: React.FC = () => {
   return (
