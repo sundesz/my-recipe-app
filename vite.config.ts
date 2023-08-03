@@ -19,7 +19,7 @@ export default ({ mode }) => {
       },
     },
     build: {
-      outDir: '../dist',
+      outDir: './dist',
     },
 
     plugins: [react()],
