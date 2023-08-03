@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react'
-import { RecipeContext } from '../RecipeContext'
-import RecipeService from '../services/recipeService'
+import { RecipeContext } from '../../RecipeContext'
+import RecipeService from '../../services/recipeService'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 
 const SearchForm: React.FC = () => {
